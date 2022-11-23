@@ -3,13 +3,13 @@
 .search-box{
   position: relative;
   max-width: 500px;
-  width: 50%;
+  width: 40%;
   height: 35px;
   display: flex;
 }
 
 .search-bar{
-  width: 85%;
+  width: 60%;
   height: 100%;
   border: 2px solid #dbdbdb;
   padding: 0 20px;
