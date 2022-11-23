@@ -1,4 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.search-box{
+  position: relative;
+  max-width: 500px;
+  width: 50%;
+  height: 35px;
+  display: flex;
+}
+
+.search-bar{
+  width: 85%;
+  height: 100%;
+  border: 2px solid #dbdbdb;
+  padding: 0 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.search-btn{
+  width: 15%;
+  height: 100%;
+  background: #f0f0f0;
+  border: 2px solid #dbdbdb;
+  padding: 5px 0;
+  border-left: none;
+}
+
+.search-btn img{
+  height: 100%;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -49,15 +79,9 @@
 	cursor: pointer;
    }
 
-   .search {
-	display: flex;
-   }
    
-   .search form {
-	display: flex;
-	border: 1px solid #ddd;
-	height: 45px;
-   }
+   
+   
 
    .search input {
 	width: 600px;
@@ -72,12 +96,7 @@
 	border: 1px solid #ddd;
   }
 
-  .search button {
-	height: 100%;
-	width: 60px;
-	border: none;
-  }
-   
+
   .mic {
 	margin-top: 10px;
   }
@@ -199,4 +218,5 @@
       width: 25rem;
     }
   }
+  
   
