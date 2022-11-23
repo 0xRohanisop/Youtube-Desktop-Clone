@@ -37,6 +37,7 @@
       display: none;
     }
   }
+  
 
   .left {
 	display: flex;
@@ -198,3 +199,4 @@
       width: 25rem;
     }
   }
+  
